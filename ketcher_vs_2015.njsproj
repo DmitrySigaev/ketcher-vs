@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{4384c766-2092-4f11-bc69-ae4e4a35539c}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="README.md" />
+        <Content Include="ketcher\demo.html" />
+        <Content Include="ketcher\logo.jpg" />
+        <Content Include="ketcher\favicon.ico" />
+        <Content Include="ketcher\package.json" />
+        <Compile Include="ketcher\Gruntfile.js" />
+        <Content Include="ketcher\icons\-arrange.svg" />
+        <Content Include="ketcher\icons\-nopic.svg" />
+        <Content Include="ketcher\icons\-strip.svg" />
+        <Content Include="ketcher\icons\-test.svg" />
+        <Content Include="ketcher\icons\arom.svg" />
+        <Content Include="ketcher\icons\bond-any.svg" />
+        <Content Include="ketcher\icons\bond-aromatic.svg" />
+        <Content Include="ketcher\icons\bond-crossed.svg" />
+        <Content Include="ketcher\icons\bond-double.svg" />
+        <Content Include="ketcher\icons\bond-doublearomatic.svg" />
+        <Content Include="ketcher\icons\bond-down.svg" />
+        <Content Include="ketcher\icons\bond-single.svg" />
+        <Content Include="ketcher\icons\bond-singlearomatic.svg" />
+        <Content Include="ketcher\icons\bond-singledouble.svg" />
+        <Content Include="ketcher\icons\bond-triple.svg" />
+        <Content Include="ketcher\icons\bond-up.svg" />
+        <Content Include="ketcher\icons\bond-updown.svg" />
+        <Content Include="ketcher\icons\chain.svg" />
+        <Content Include="ketcher\icons\charge-minus.svg" />
+        <Content Include="ketcher\icons\charge-plus.svg" />
+        <Content Include="ketcher\icons\cleanup.svg" />
+        <Content Include="ketcher\icons\copy.svg" />
+        <Content Include="ketcher\icons\cut.svg" />
+        <Content Include="ketcher\icons\dearom.svg" />
+        <Content Include="ketcher\icons\dropdown.svg" />
+        <Content Include="ketcher\icons\erase.svg" />
+        <Content Include="ketcher\icons\generic-groups.svg" />
+        <Content Include="ketcher\icons\info.svg" />
+        <Content Include="ketcher\icons\logo.svg" />
+        <Content Include="ketcher\icons\new.svg" />
+        <Content Include="ketcher\icons\open.svg" />
+        <Content Include="ketcher\icons\paste.svg" />
+        <Content Include="ketcher\icons\period-table.svg" />
+        <Content Include="ketcher\icons\reaction-arrow.svg" />
+        <Content Include="ketcher\icons\reaction-automap.svg" />
+        <Content Include="ketcher\icons\reaction-map.svg" />
+        <Content Include="ketcher\icons\reaction-plus.svg" />
+        <Content Include="ketcher\icons\reaction-unmap.svg" />
+        <Content Include="ketcher\icons\redo.svg" />
+        <Content Include="ketcher\icons\rgroup-attpoints.svg" />
+        <Content Include="ketcher\icons\rgroup-fragment.svg" />
+        <Content Include="ketcher\icons\rgroup-label-A.svg" />
+        <Content Include="ketcher\icons\rgroup-label-B.svg" />
+        <Content Include="ketcher\icons\save.svg" />
+        <Content Include="ketcher\icons\select-fragment.svg" />
+        <Content Include="ketcher\icons\select-lasso.svg" />
+        <Content Include="ketcher\icons\select-rectangle.svg" />
+        <Content Include="ketcher\icons\settings.svg" />
+        <Content Include="ketcher\icons\sgroup.svg" />
+        <Content Include="ketcher\icons\template-0.svg" />
+        <Content Include="ketcher\icons\template-1.svg" />
+        <Content Include="ketcher\icons\template-2.svg" />
+        <Content Include="ketcher\icons\template-3.svg" />
+        <Content Include="ketcher\icons\template-4.svg" />
+        <Content Include="ketcher\icons\template-5.svg" />
+        <Content Include="ketcher\icons\template-6.svg" />
+        <Content Include="ketcher\icons\template-7.svg" />
+        <Content Include="ketcher\icons\template-custom.svg" />
+        <Content Include="ketcher\icons\transform-flip-h.svg" />
+        <Content Include="ketcher\icons\transform-flip-v.svg" />
+        <Content Include="ketcher\icons\transform-rotate.svg" />
+        <Content Include="ketcher\icons\undo.svg" />
+        <Content Include="ketcher\icons\zoom-in.svg" />
+        <Content Include="ketcher\icons\zoom-out.svg" />
+        <Content Include="ketcher\icons\config-svg-fix.json" />
+        <Content Include="ketcher\icons\config.json" />
+        <Compile Include="ketcher\script\banner.js" />
+        <Compile Include="ketcher\script\index.js" />
+        <Compile Include="ketcher\script\prototype-min.js" />
+        <Compile Include="ketcher\script\raphael-ext.js" />
+        <Content Include="ketcher\style\overlay.svg" />
+        <Compile Include="ketcher\script\chem\cis_trans.js" />
+        <Compile Include="ketcher\script\chem\dfs.js" />
+        <Compile Include="ketcher\script\chem\element.js" />
+        <Compile Include="ketcher\script\chem\index.js" />
+        <Compile Include="ketcher\script\chem\molfile.js" />
+        <Compile Include="ketcher\script\chem\sgroup.js" />
+        <Compile Include="ketcher\script\chem\smiles.js" />
+        <Compile Include="ketcher\script\chem\stereocenters.js" />
+        <Compile Include="ketcher\script\chem\struct.js" />
+        <Compile Include="ketcher\script\chem\struct_valence.js" />
+        <Compile Include="ketcher\script\rnd\editor.js" />
+        <Compile Include="ketcher\script\rnd\index.js" />
+        <Compile Include="ketcher\script\rnd\render.js" />
+        <Compile Include="ketcher\script\rnd\restruct.js" />
+        <Compile Include="ketcher\script\rnd\restruct_rendering.js" />
+        <Compile Include="ketcher\script\rnd\visel.js" />
+        <Compile Include="ketcher\script\ui\action.js" />
+        <Compile Include="ketcher\script\ui\index.js" />
+        <Compile Include="ketcher\script\ui\keys.js" />
+        <Compile Include="ketcher\script\ui\op.js" />
+        <Compile Include="ketcher\script\ui\server.js" />
+        <Compile Include="ketcher\script\ui\templates.js" />
+        <Compile Include="ketcher\script\util\ajax.js" />
+        <Compile Include="ketcher\script\util\box2abs.js" />
+        <Compile Include="ketcher\script\util\index.js" />
+        <Compile Include="ketcher\script\util\map.js" />
+        <Compile Include="ketcher\script\util\pool.js" />
+        <Compile Include="ketcher\script\util\set.js" />
+        <Compile Include="ketcher\script\util\vec2.js" />
+        <Compile Include="ketcher\script\ui\dialog\obsolete.js" />
+        <Compile Include="ketcher\script\ui\dialog\open.js" />
+        <Compile Include="ketcher\script\ui\dialog\save.js" />
+        <Compile Include="ketcher\script\ui\dialog\select.js" />
+        <Compile Include="ketcher\script\ui\dialog\sgroup.js" />
+        <Compile Include="ketcher\script\ui\dialog\templates.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="ketcher" />
+        <Folder Include="ketcher\icons" />
+        <Folder Include="ketcher\script" />
+        <Folder Include="ketcher\script\chem" />
+        <Folder Include="ketcher\script\rnd" />
+        <Folder Include="ketcher\script\ui" />
+        <Folder Include="ketcher\script\ui\dialog" />
+        <Folder Include="ketcher\script\util" />
+        <Folder Include="ketcher\server" />
+        <Folder Include="ketcher\style" />
+        <Folder Include="ketcher\template" />
+        <Folder Include="ketcher\template\dialog" />
+        <Folder Include="ketcher\template\menu" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

@@ -89,6 +89,7 @@
     <Content Include="ketcher\icons\config-svg-fix.json" />
     <Content Include="ketcher\icons\config.json" />
     <Compile Include="ketcher\script\banner.js" />
+    <Compile Include="ketcher\script\chem\atom.js" />
     <Compile Include="ketcher\script\index.js" />
     <Compile Include="ketcher\script\prototype-min.js" />
     <Compile Include="ketcher\script\raphael-ext.js" />

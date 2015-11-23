@@ -91,6 +91,7 @@
     <Compile Include="ketcher\script\banner.js" />
     <Compile Include="ketcher\script\chem\atom.js" />
     <Compile Include="ketcher\script\chem\bond.js" />
+    <Compile Include="ketcher\script\chem\sgforest.js" />
     <Compile Include="ketcher\script\index.js" />
     <Compile Include="ketcher\script\prototype-min.js" />
     <Compile Include="ketcher\script\raphael-ext.js" />

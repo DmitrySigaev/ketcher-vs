@@ -92,6 +92,7 @@
     <Compile Include="ketcher\script\chem\atom.js" />
     <Compile Include="ketcher\script\chem\bond.js" />
     <Compile Include="ketcher\script\chem\sgforest.js" />
+    <Compile Include="ketcher\script\chem\stereocenters.js" />
     <Compile Include="ketcher\script\index.js" />
     <Compile Include="ketcher\script\prototype-min.js" />
     <Compile Include="ketcher\script\raphael-ext.js" />
@@ -99,11 +100,9 @@
     <Compile Include="ketcher\script\chem\cis_trans.js" />
     <Compile Include="ketcher\script\chem\dfs.js" />
     <Compile Include="ketcher\script\chem\element.js" />
-    <Compile Include="ketcher\script\chem\index.js" />
     <Compile Include="ketcher\script\chem\molfile.js" />
     <Compile Include="ketcher\script\chem\sgroup.js" />
     <Compile Include="ketcher\script\chem\smiles.js" />
-    <Compile Include="ketcher\script\chem\stereocenters.js" />
     <Compile Include="ketcher\script\chem\struct.js" />
     <Compile Include="ketcher\script\rnd\editor.js" />
     <Compile Include="ketcher\script\rnd\index.js" />

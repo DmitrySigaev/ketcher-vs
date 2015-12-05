@@ -111,10 +111,10 @@
     <Compile Include="ketcher\script\rnd\restruct_rendering.js" />
     <Compile Include="ketcher\script\rnd\visel.js" />
     <Compile Include="ketcher\script\ui\action.js" />
+    <Compile Include="ketcher\script\ui\dialog\sgroup-special.js" />
     <Compile Include="ketcher\script\ui\index.js" />
     <Compile Include="ketcher\script\ui\keys.js" />
     <Compile Include="ketcher\script\ui\op.js" />
-    <Compile Include="ketcher\script\ui\server.js" />
     <Compile Include="ketcher\script\ui\templates.js" />
     <Compile Include="ketcher\script\util\ajax.js" />
     <Compile Include="ketcher\script\util\box2abs.js" />

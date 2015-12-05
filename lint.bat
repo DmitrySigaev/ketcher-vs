@@ -1,0 +1,1 @@
+.\ketcher\node_modules\.bin\eslint --reset --no-eslintrc -c no-undefrc .\ketcher\script

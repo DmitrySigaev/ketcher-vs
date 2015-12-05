@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "prototypejs": true
+  },
+
+  "rules": {
+    "no-undef": 2
+  }
+}

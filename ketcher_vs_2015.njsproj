@@ -88,6 +88,7 @@
     <Content Include="ketcher\icons\zoom-out.svg" />
     <Content Include="ketcher\icons\config-svg-fix.json" />
     <Content Include="ketcher\icons\config.json" />
+    <Compile Include="ketcher\script\api.js" />
     <Compile Include="ketcher\script\banner.js" />
     <Compile Include="ketcher\script\chem\atom.js" />
     <Compile Include="ketcher\script\chem\bond.js" />

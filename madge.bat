@@ -1,0 +1,1 @@
+.\ketcher\node_modules\.bin\madge --circular .\ketcher\script

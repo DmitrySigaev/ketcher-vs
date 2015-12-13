@@ -92,6 +92,7 @@
     <Compile Include="ketcher\script\banner.js" />
     <Compile Include="ketcher\script\chem\atom.js" />
     <Compile Include="ketcher\script\chem\atomlist.js" />
+    <Compile Include="ketcher\script\chem\bond.js" />
     <Compile Include="ketcher\script\chem\index.js" />
     <Compile Include="ketcher\script\chem\stereocenters.js" />
     <Compile Include="ketcher\script\index.js" />

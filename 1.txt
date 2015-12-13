@@ -1,0 +1,14 @@
+
+D:\Projects\KETCHERs\ketcher-vs>.\ketcher\node_modules\.bin\eslint --reset --no-eslintrc -c no-undefrc .\ketcher\script 
+
+ketcher\script\prototype-min.js
+  1:20564  error  "ActiveXObject" is not defined  no-undef
+  1:20619  error  "ActiveXObject" is not defined  no-undef
+  1:26122  error  "escape" is not defined         no-undef
+  8:13028  error  "Sizzle" is not defined         no-undef
+
+ketcher\script\ui\index.js
+  933:5  error  "__SGROUP_SPECIAL__" is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+

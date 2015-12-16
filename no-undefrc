@@ -4,8 +4,8 @@
     "node": true,
     "prototypejs": true
   },
-
   "rules": {
+    "no-unused-vars": [2, {"args": none }],
     "no-undef": 2
   }
 }

@@ -1,14 +1,66 @@
 
-D:\Projects\KETCHERs\ketcher-vs>.\ketcher\node_modules\.bin\eslint --reset --no-eslintrc -c no-undefrc .\ketcher\script 
+D:\Projects\KETCHERs\ketcher-vs>.\ketcher\node_modules\.bin\eslint --no-eslintrc -c no-undefrc .\ketcher\script 
 
-ketcher\script\prototype-min.js
-  1:20564  error  "ActiveXObject" is not defined  no-undef
-  1:20619  error  "ActiveXObject" is not defined  no-undef
-  1:26122  error  "escape" is not defined         no-undef
-  8:13028  error  "Sizzle" is not defined         no-undef
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\chem\molfile.js
+  979:6  error  "sgroups" is defined but never used  no-unused-vars
 
-ketcher\script\ui\index.js
-  933:5  error  "__SGROUP_SPECIAL__" is not defined  no-undef
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\chem\sgroup.js
+  9:5  error  "rnd" is defined but never used  no-unused-vars
 
-✖ 5 problems (5 errors, 0 warnings)
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\chem\smiles.js
+  308:8  error  "bond_written" is defined but never used  no-unused-vars
+  391:6  error  "i" is defined but never used             no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\chem\struct.js
+  922:6  error  "submols" is defined but never used  no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\prototype-min.js
+  1:20565  error  "ActiveXObject" is not defined         no-undef
+  1:20620  error  "ActiveXObject" is not defined         no-undef
+  1:34467  error  "c" is defined but never used          no-unused-vars
+  1:37193  error  "a" is defined but never used          no-unused-vars
+  1:51165  error  "z" is defined but never used          no-unused-vars
+  1:51541  error  "g" is defined but never used          no-unused-vars
+  1:51628  error  "u" is defined but never used          no-unused-vars
+  8:387    error  "H" is defined but never used          no-unused-vars
+  8:389    error  "A" is defined but never used          no-unused-vars
+  8:13029  error  "Sizzle" is not defined                no-undef
+  8:16036  error  "Field" is defined but never used      no-unused-vars
+  8:16059  error  "$F" is defined but never used         no-unused-vars
+  8:25328  error  "Toggle" is defined but never used     no-unused-vars
+  8:25417  error  "Insertion" is defined but never used  no-unused-vars
+  8:25657  error  "$continue" is defined but never used  no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\rnd\editor.js
+   900:7  error  "self" is defined but never used       no-unused-vars
+  1720:6  error  "id" is defined but never used         no-unused-vars
+  1721:6  error  "selection" is defined but never used  no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\rnd\restruct_rendering.js
+  626:5   error  "markerColors" is defined but never used  no-unused-vars
+  907:11  error  "c" is defined but never used             no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\ui\action.js
+   216:10  error  "fromSelectedBondsAttrs" is defined but never used  no-unused-vars
+   427:10  error  "fromChiralFlagAddition" is defined but never used  no-unused-vars
+   551:10  error  "fromFragmentAddition" is defined but never used    no-unused-vars
+   935:6   error  "xy0" is defined but never used                     no-unused-vars
+  1051:6   error  "sg" is defined but never used                      no-unused-vars
+  1417:6   error  "i" is defined but never used                       no-unused-vars
+  1418:6   error  "fids" is defined but never used                    no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\ui\dialog\obsolete.js
+  268:10  error  "onKeyPress_Dialog" is defined but never used  no-unused-vars
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\ui\index.js
+  602:10  error  "getViewSz" is defined but never used           no-unused-vars
+  642:10  error  "setScrollOffsetRel" is defined but never used  no-unused-vars
+  827:5   error  "scrollLeft" is defined but never used          no-unused-vars
+  828:5   error  "scrollTop" is defined but never used           no-unused-vars
+  938:6   error  "__SGROUP_SPECIAL__" is not defined             no-undef
+
+D:\Projects\KETCHERs\ketcher-vs\ketcher\script\util\index.js
+  21:5  error  "map_each" is defined but never used  no-unused-vars
+
+✖ 39 problems (39 errors, 0 warnings)
 

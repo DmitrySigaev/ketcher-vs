@@ -6,3 +6,4 @@
 
 # server
 run ketcher.bat other terminal
+to get latest version of indigo-server please go to  https://indigo.itcwin.com/jenkins/job/Indigo_Make_Pack/

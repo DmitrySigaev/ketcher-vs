@@ -167,7 +167,6 @@
     <Compile Include="ketcher\script\editor\rotatetool.js" />
     <Compile Include="ketcher\script\editor\selectionhelper.js" />
     <Compile Include="ketcher\script\editor\selectionhelper.js" />
-    <Compile Include="ketcher\script\editor\sgropuhelper.js" />
     <Compile Include="ketcher\script\editor\sgrouphelper.js" />
     <Compile Include="ketcher\script\editor\sgrouptool.js" />
     <Compile Include="ketcher\script\editor\sgrouptool.js" />

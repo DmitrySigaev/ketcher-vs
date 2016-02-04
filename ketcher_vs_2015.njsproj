@@ -135,7 +135,6 @@
     <Compile Include="ketcher\script\editor\chargetool.js" />
     <Compile Include="ketcher\script\editor\chargetool.js" />
     <Compile Include="ketcher\script\editor\editor.js" />
-    <Compile Include="ketcher\script\editor\editor.js" />
     <Compile Include="ketcher\script\editor\editorglobal.js" />
     <Compile Include="ketcher\script\editor\editorglobal.js" />
     <Compile Include="ketcher\script\editor\editortool.js" />
@@ -144,6 +143,7 @@
     <Compile Include="ketcher\script\editor\erasertool.js" />
     <Compile Include="ketcher\script\editor\hoverhelper.js" />
     <Compile Include="ketcher\script\editor\hoverhelper.js" />
+    <Compile Include="ketcher\script\editor\index.js" />
     <Compile Include="ketcher\script\editor\lassohelper.js" />
     <Compile Include="ketcher\script\editor\lassohelper.js" />
     <Compile Include="ketcher\script\editor\lassotool.js" />
@@ -168,7 +168,7 @@
     <Compile Include="ketcher\script\editor\selectionhelper.js" />
     <Compile Include="ketcher\script\editor\selectionhelper.js" />
     <Compile Include="ketcher\script\editor\sgropuhelper.js" />
-    <Compile Include="ketcher\script\editor\sgropuhelper.js" />
+    <Compile Include="ketcher\script\editor\sgrouphelper.js" />
     <Compile Include="ketcher\script\editor\sgrouptool.js" />
     <Compile Include="ketcher\script\editor\sgrouptool.js" />
     <Compile Include="ketcher\script\editor\templatetool.js" />

@@ -134,7 +134,6 @@
     <Compile Include="ketcher\script\editor\chaintool.js" />
     <Compile Include="ketcher\script\editor\chargetool.js" />
     <Compile Include="ketcher\script\editor\chargetool.js" />
-    <Compile Include="ketcher\script\editor\editor.js" />
     <Compile Include="ketcher\script\editor\editorglobal.js" />
     <Compile Include="ketcher\script\editor\editorglobal.js" />
     <Compile Include="ketcher\script\editor\editortool.js" />
